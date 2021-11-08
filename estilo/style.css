@@ -11,6 +11,7 @@ section {
     border-radius: 10px;
     padding: 0px;
     width: 545px;
+    max-width: 560px;
     height: 944px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37)
@@ -20,6 +21,7 @@ section > iframe {
     background: transparent;
     padding: 0px;
     width: 550px;
+    max-width: 560px;
     height: 930px;
     margin:auto;   
 }
