@@ -1,21 +1,26 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     background-image: linear-gradient(to bottom, lightskyblue, transparent);
+    margin: auto;
     
 }
 
-body > iframe {
-    min-width: 300px;
-    max-width: 700px;
+section {
     margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    width: 635px;
     height: 914px;
-    border-radius: 2px;
-    margin-top: 1px;
-    margin-left: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37)
+}
+
+section > iframe {
+    background: transparent;
+    padding: 15px;
+    width: 600px;
+    height: 892px;
+    margin: auto;
+
 }
